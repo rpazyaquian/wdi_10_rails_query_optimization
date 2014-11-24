@@ -20,10 +20,11 @@ gem 'spring', group: :development
 
 gem 'devise'
 gem 'validate_url'
+gem 'factory_girl_rails'
+gem 'faker'
+gem 'newrelic_rpm'
 
 group :development, :test do
-  gem 'factory_girl_rails'
-  gem 'faker'
   gem 'pry-rails'
   gem 'pry-byebug'
   gem 'rspec-rails'
